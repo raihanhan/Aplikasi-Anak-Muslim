@@ -6,6 +6,10 @@ html, body
 body
 {
 	background-color: # #b3ccff;
+	background-image: url(/bg1.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	bakground-size: cover;
 	font-family: Arial, Helvetica, Verdana;
 	font-size: 100%;
 	line-height: 100%;
