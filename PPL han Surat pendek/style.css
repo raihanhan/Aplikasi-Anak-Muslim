@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+	background-image: url('background.png');
+    background-repeat: no-repeat;
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 100%;
+	line-height: 100%;
+	color: #666;
+	position: relative;
+	-webkit-text-size-adjust: none;
+}
+.arab3 {
+    font-size: 150%;padding-bottom: 5px;text-align: right;font-family: 'LPMQ Isep Misbah'; color: #000;line-height: 200%;direction: rtl;margin:10px 0px 10px 0px;
+}
+.noarab{
+    font-size: 130%;font-family: 'KFGQPC Uthmanic Script HAFS'; color: #ffffff;direction: rtl;
+}
+body *
+{
+	text-shadow: none;
+}
+.container-body {
+    left: 27px;
+    right: 50px;
+    height: auto;
+    margin-bottom: 20px;
+    padding-right: 0;
+    position: absolute;
+}
+.navbar{
+    background-image: url('navbar.png');
+    background-repeat: no-repeat;
+    height: auto;
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    padding-right: 0;
+    width: 100%
+}
+.container-surat{
+    margin: 20px;
+    padding: 0px;
+}
+.img{
+    display: contents;
+}
+.list-group-item{
+    margin-bottom: 20px;
+    height: fit-content;
+    padding: 0%;
+    width: fit-content;
+
+}
+a.list-group-item{
+    margin: 20px;
+    width: fit-content;
+    max-height: fit-content;
+}
+.card-header{
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 480px){
+    body{
+        background-color: thistle;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    body {
+        background-color: blue;
+    }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+        background-color: green;
+    }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+        background-color: white;
+    }
+}
