@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Mr. Mung" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+		<title>Aplikasi Anak Muslim.</title>
+
+<link rel="stylesheet" type="text/css" href="jssocials.css" />
+<link rel="stylesheet" type="text/css" href="jssocials-theme-minima.css" />
+
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link type="text/css" rel="stylesheet" href="jquery.mmenu.all.css" />
+<style type="text/css"> 
+@font-face {font-family: 'LPMQ Isep Misbah'; src: url('LPMQ_IsepMisbah.ttf');}
+@font-face {font-family: 'KFGQPC Uthmanic Script HAFS'; src: url('UthmanicHafs1 Ver09.otf');}
+@font-face {font-family: 'KFGQPC_Naskh'; src: url('KFC_naskh.eot'); src: local('KFGQPC Uthman Taha Naskh'), url('KFC_naskh.otf') format('opentype');}
+</style>
+		<!-- for the one page layout -->
+		<style type="text/css">
+			section
+			{
+				border-top: 1px solid rgb(59, 26, 102);
+				padding: 150px 0 200px;
+			}
+			section:first-child
+			{
+				border-top: none;
+				padding-top: 0;
+			}
+		</style>
+		
+		<style>
+			body {
+				background-image: url(bg1.png);
+				background-position: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+		</style>
+		<!-- for the fixed header -->
+		<style type="text/css">
+			.header,
+			.footer
+			{
+				position: fixed;
+				left: 0;
+				right: 0;
+			}
+			.header
+			{
+				top: 0;
+			}
+			.footer
+			{
+				bottom: 0;
+			}
+			@media (min-width: 2000px) {
+				.header a
+				{
+					display: none;
+				}
+			}
+		</style>
+		
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="hammer.min.js"></script>
+
+		<script type="text/javascript" src="jquery.mmenu.all.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('nav#menu').mmenu({
+					drag 		: true,
+					pageScroll 	: {
+						scroll 		: true,
+						update		: true
+					},
+					// extensions: {
+					// 	'all': ['pagedim-white'],
+					// 	'(min-width: 400px)' : ['pagedim-black']
+					// },
+					sidebar 	: {
+						expanded 	: 2000
+					}
+				});
+			});
+		</script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>		
+	</head>
+	<body><a href="index.html"><img style="top:5px;position:fixed;right:10px;z-index:99;max-height:28px" src="gbr.png"/></a>
+		<div id="page">
+			<div class="header Fixed">
+				<a href="#menu"><span></span></a>
+				DOA SEBELUM TIDUR
+			</div>
+			<div class="content" id="content">
+<audio controls="controls">
+    <source src="mp3/Doa Sebelum Tidur.mp3">
+</audio>
+
+<style>
+audio {width: 200px;height: 20px;bottom:22px;position:fixed;background:#3D502C;padding:1px;border-radius:10px;left: 0;
+right: 0;margin: 0% auto;}
+</style>			
+
+<!-- <center><button id="hide">Tutup Latin</button> -->
+<!-- <button id="show">Munculkan Latin</button></center> -->
+
+<div class="arab3center">
+بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
+</div><br/>
+<div style="text-align: right;">
+<span class="arab3">
+	بِسْمِكَ اللّهُمَّ اَحْيَا وَ بِسْمِكَ اَمُوْتُ
+<span class="noarab"></span>
+</span>
+	<p style=" text-align: left;">
+	<i><b>Bismika allahumma ahyaa wa bismika amuut</b></i><br></p>
+	<p style=" text-align: left;">Dengan namaMu ya Allah, aku hidup dan aku mati</p>
+
+<a class="font-button plus"><img style="bottom:18px;position:fixed;right:0px;width:50px;" src="masjid4.png"/></a>
+<a class="font-button minus"><img style="bottom:18px;position:fixed;left:0px;width:50px;" src="masjid3.png"/></a>
+</div>
+			</div>
+			<div class="footer Fixed">
+				@ STMIK EL RAHMA YOGYAKARTA 2023
+			</div>
+			<nav id="menu">
+				<ul>
+<li><a href="index.html">✪ Home</a></li>
+					<li><a href="tahlil.html">✪ Tahlil Lengkap</a></li>
+					<li><a href="doatahlil.html">✪ Doa Tahlil</a>
+					<ul>
+					</ul>
+					</li>					
+					<li><a href="tentang.html">✪ Tentang Aplikasi</a></li>
+				</ul>
+			</nav>
+		</div>
+	</body>
+</html>
